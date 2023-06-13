@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2f3947;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4f9fff;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    width: 45vh;
+    border: solid;
+    border-radius: 24px;
+    background-color: #1f2937;
+    box-shadow: 5px 10px 25px #060f1d, 15px 20px 25px #060f1d;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.screen {
+    font-family: monospace;
+    font-size: 64px;
+    display: flex;
+    justify-content: end;
+    width: 85%;
+    height: 10%;
+    border: solid black;
+    border-radius: 12px;
+    margin: 5% auto;
+    background-color: #7f8997;
+    cursor: default;
+}
+
+.text {
+    overflow-x: scroll;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.watermark {
+    font-family: Cambria, Georgia, 'Times New Roman', serif;
+    color: #4f9fff;
+    font-size: 28px;
+    width: 46%;
+    text-align: center;
+    margin: auto;
+}
+
+.num-style {
+    background-color: #bfc9d7;
+}
+
+.op-style:active {
+    background-color: #646d7b;
+}
+
+.op-style {
+    background-color: #4f9fff;
+}
+
+.op-style:active {
+    background-color: #155ed3;
+}
+
+button {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 32px;
+    width: 21%;
+    height: 7vh;
+    margin: 0 auto;
+    border: solid;
+    border-radius: 24px;
+}
+
+button:hover {
+    cursor: pointer;
+}
